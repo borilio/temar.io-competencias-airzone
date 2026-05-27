@@ -367,6 +367,10 @@ export class Contenido implements OnInit {
     });
   }
 
+  /**
+   * Método que captura los eventos de teclado al pulsar teclas. Si coincide las teclas pulsadas con nuestra combinación, lanzamos la función que queramos
+   * @param evento Evento de teclado que recibe la función
+   */
   @HostListener("window:keydown", ["$event"])
   capturarEventoTeclado(evento: KeyboardEvent) {
     // Control + i
@@ -374,6 +378,8 @@ export class Contenido implements OnInit {
       evento.preventDefault();
       this.abrirDrawer();
     }
+
+    // Puedes crear más eventos de teclado
 
   }
 
