@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, Renderer2, ViewContainerRef, ViewEncapsulation } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, Renderer2, ViewContainerRef, ViewEncapsulation } from '@angular/core';
 import { CodeHeader } from '../../layout/code-header/code-header'; // Componente code-header (cabecera para los bloques de código)
 import { PRIMENG_IMPORTS } from '../../../shared/primeng.imports';
 import { MarkdownService } from '../../../services/markdown.service';
@@ -92,7 +92,7 @@ export class Contenido implements OnInit {
     this.speedDialItems = [
       {
         icon: PrimeIcons.LIST,
-        label: "Indice de contenidos",
+        label: "Índice (control+i)",
         command: () => {
           this.abrirDrawer();
         }
@@ -365,6 +365,16 @@ export class Contenido implements OnInit {
       // Reemplaza el <img> del DOM por el nuevo componente <p-image>
       imgElement.parentNode?.replaceChild(componentRef.location.nativeElement, imgElement);
     });
+  }
+
+  @HostListener("window:keydown", ["$event"])
+  capturarEventoTeclado(evento: KeyboardEvent) {
+    // Control + i
+    if (evento.ctrlKey && evento.key.toLocaleLowerCase() === 'i') {
+      evento.preventDefault();
+      this.abrirDrawer();
+    }
+
   }
 
 
