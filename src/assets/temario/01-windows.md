@@ -2,7 +2,7 @@
 
 # Sistemas operativos
 
-
+![Representación visual de lo que es un Sistema operativo](img/01-windows/image-20260527121235401.png){.rounded-4}
 
 > [!important]
 >
@@ -36,35 +36,35 @@ Windows es un sistema operativo **desarrollado por Microsoft**. Es el software q
 
 - **Windows 3.0 (1990):** Esta versión trajo mejoras significativas en la interfaz gráfica y en la capacidad de multitarea. Incluía el Administrador de Programas, el Administrador de Archivos y un entorno gráfico mejorado. En 1992 lanzaron Windows 3.1x, que es la que convirtió en un gran éxito mundial.
 
-  <img src="img/01-windows/windows311.jpg" alt="Pantalla principal de Windows 3.1" style="width:80%" />
+  <img src="img/01-windows/windows311.jpg" alt="Pantalla principal de Windows 3.1" class="rounded-4" style="width:80%" />
 
 - **Windows 95 (1995):** Un gran salto en la evolución de Windows, Windows 95 introdujo el botón de "Inicio", la barra de tareas y el explorador de archivos con una interfaz de usuario significativamente mejorada. Fue la primera versión en incluir soporte para nombres de archivo largos y Plug and Play para hardware.
 
-  <img src="img/01-windows/windows95.png" alt="Pantalla principal de Windows 95" style="width:80%" />
+  <img src="img/01-windows/windows95.png" alt="Pantalla principal de Windows 95" class="rounded-4" style="width:80%" />
 
 - **Windows XP (2001):** Una de las versiones más populares de Windows, conocida por su estabilidad y facilidad de uso. Windows XP introdujo una nueva interfaz gráfica, mejor gestión de redes, y mayores capacidades de multimedia.
 
-  <img src="img/01-windows/windowsxp.gif" alt="Pantalla principal de Windows XP" style="width:80%" />
+  <img src="img/01-windows/windowsxp.gif" alt="Pantalla principal de Windows XP" class="rounded-4" style="width:80%" />
 
 - **Windows Vista (2006):** Aunque introdujo una interfaz de usuario completamente nueva llamada Aero y varias características de seguridad mejoradas, Windows Vista fue criticado por sus altos requisitos de hardware y problemas de compatibilidad.
 
-  <img src="img/01-windows/windows-vista.jpg" alt="Pantalla principal de Windows Vista" style="width:80%" />
+  <img src="img/01-windows/windows-vista.jpg" alt="Pantalla principal de Windows Vista" class="rounded-4" style="width:80%" />
 
 - **Windows 7 (2009):** Windows 7 corrigió muchos de los problemas de Vista y es conocido por su rendimiento mejorado y facilidad de uso. Introdujo características como la barra de tareas rediseñada, Jump Lists y mejoras en la administración de ventanas.
 
-  <img src="img/01-windows/windows-7.jpg" alt="Pantalla principal Windows 7" style="width:80%" />
+  <img src="img/01-windows/windows-7.jpg" alt="Pantalla principal Windows 7" class="rounded-4" style="width:80%" />
 
 - **Windows 8 (2012):** Esta versión presentó una interfaz radicalmente nueva con Live Tiles y una pantalla de inicio optimizada para dispositivos táctiles. Sin embargo, la eliminación del botón de Inicio tradicional causó controversia entre los usuarios.
 
-  <img src="img/01-windows/windows-8.png" alt="Pantalla principal de Windows 8.1" style="width:80%" />
+  <img src="img/01-windows/windows-8.png" alt="Pantalla principal de Windows 8.1" class="rounded-4" style="width:80%" />
 
 - **Windows 10 (2015):** Windows 10 combinó elementos de Windows 7 y 8, reintroduciendo el botón de Inicio y mejorando la integración de aplicaciones tanto para dispositivos táctiles como para PCs tradicionales. Ofreció actualizaciones de seguridad constantes y el asistente digital Cortana.
 
-  <img src="img/01-windows/windows10.jpg" alt="Pantalla principal Windows 10" class="img-preview" />
+  <img src="img/01-windows/windows10.jpg" alt="Pantalla principal Windows 10" class="rounded-4" class="img-preview" />
 
 - **Windows 11 (2021):** La versión más reciente, Windows 11, trajo una interfaz de usuario modernizada con esquinas redondeadas, un nuevo diseño del menú de Inicio, mejoras en la productividad y una mayor integración con Microsoft Teams. Además, ofrece mejoras en rendimiento y soporte para aplicaciones de Android.
 
-  <img src="img/01-windows/Windows-11.jpg" alt="Pantalla principal Windows 11" class="img-preview" />
+  <img src="img/01-windows/Windows-11.jpg" alt="Pantalla principal Windows 11" class="rounded-4" />
 
 ## Android
 
@@ -113,9 +113,14 @@ En la siguiente sección pasaremos a describir cada una de las partes fundamente
 
 La interfaz de usuario de Windows **es el entorno gráfico que permite a los usuarios interactuar con el sistema operativo** y realizar tareas en sus computadoras. Aunque ha evolucionado a lo largo de las distintas versiones, los elementos fundamentales han permanecido relativamente constantes, facilitando la familiarización y el uso a través de las versiones. 
 
-En esta sección, exploraremos las partes principales de la interfaz de usuario de Windows: el menú de inicio 🟩, la barra de búsqueda 🟧, la barra de tareas ⬜ y la bandeja del sistema 🟦.
+En esta sección, exploraremos las partes principales de la interfaz de usuario de Windows: 
 
-![Zonas del escritorio de Windows 11](img/01-windows/image-20240704130033277.png)
+- 🟩 El menú de inicio
+- 🟧 La barra de búsqueda 
+- ⬜ La barra de tareas 
+- 🟦 La bandeja del sistema
+
+![Zonas del escritorio de Windows 11](img/01-windows/image-20240704130033277.png){.rounded-4}
 
 
 
@@ -123,7 +128,7 @@ En esta sección, exploraremos las partes principales de la interfaz de usuario 
 
 El botón <kbd>Inicio</kbd> nos permite acceder a todas las opciones que nos ofrece Windows en cualquiera de sus versiones. Si lo pulsamos se desplegará un menú similar al siguiente.
 
-![Menú inicio de Windows 11](img/01-windows/image-20240704132555105.png)
+![Menú inicio de Windows 11](img/01-windows/image-20240704132555105.png){.rounded-4}
 
 Dependiendo de la versión de Windows, puede cambiar la disposición de los elementos, pero siempre aparecerán de una forma u otra lo siguiente:
 
@@ -133,7 +138,7 @@ Dependiendo de la versión de Windows, puede cambiar la disposición de los elem
 
 - **Barra de búsqueda:** Es un cuadro de texto para buscar aplicaciones, documentos o secciones de configuración. Tan solo tenemos que empezar a escribir cuando abramos el menú de inicio, y directamente nos saldrán filtrados los elementos que coincidan con la búsqueda.
 
-  <img src="img/01-windows/image-20240704141104502.png" alt="Barra de búsqueda en menú inicio" style="zoom:67%;" />
+  <img src="img/01-windows/image-20240704141104502.png" alt="Barra de búsqueda en menú inicio" class="rounded-4" style="zoom:67%;" />
 
 - **Usuario activo:** Aparecerá el nombre e imagen del usuario activo que tiene la sesión iniciada. Pulsando sobre él podremos cambiar de usuario o cerrar la sesión, entre otras opciones.
 
@@ -147,19 +152,19 @@ Dependiendo de la versión de Windows, puede cambiar la disposición de los elem
 >
 > Para abrir y cerrar el menú de inicio, podemos hacer clic en el botón <kbd>Inicio</kbd>, en la esquina inferior izquierda en la mayoría de las veces. Casi todos los teclados modernos incluyen una tecla directa para abrir y cerrar el menú inicio, suele tener el icono de Windows y está situada entre las teclas <kbd>Control</kbd> y <kbd>Alt</kbd> izquierdos.
 >
-> <img src="img/01-windows/botoninicio.jpg" alt="Botón inicio en los teclados" style="zoom:67%;" />
+> <img src="img/01-windows/botoninicio.jpg" alt="Botón inicio en los teclados" class="rounded-4" style="zoom:67%;" />
 
 
 
 ## ⬜Barra de tareas
 
-#### Descripción General
+### Descripción General
 
 La barra de tareas es un componente esencial de la interfaz de usuario de Windows, ubicada generalmente en la parte inferior de la pantalla. Su propósito es proporcionar acceso rápido y fácil a las aplicaciones, archivos y configuraciones, así como mostrar información de estado y notificaciones importantes. A lo largo de las versiones de Windows, la barra de tareas ha evolucionado para incluir más funcionalidades y mejorar la experiencia del usuario.
 
-![image-20240705093954623](img/01-windows/image-20240705093954623.png)
+![image-20240705093954623](img/01-windows/image-20240705093954623.png){.rounded-4}
 
-#### Funcionalidades principales
+### Funcionalidades principales
 
 Según la captura anterior, aparecen en orden los siguientes elementos:
 
@@ -169,15 +174,15 @@ Según la captura anterior, aparecen en orden los siguientes elementos:
 
 3. **Vista de Tareas:** La vista de tareas, accesible mediante un botón en la barra de tareas o presionando <kbd>Win + Tab</kbd>, muestra todas las aplicaciones y ventanas abiertas en una vista en miniatura. También permite acceder a los escritorios virtuales, que son escritorios adicionales donde puedes organizar tus aplicaciones y ventanas abiertas en grupos separados para mejorar la productividad.
 
-   ![Vista de tareas en Windows 11](img/01-windows/image-20240705100013970.png)
+   ![Vista de tareas en Windows 11](img/01-windows/image-20240705100013970.png){.rounded-4}
 
 4. **Accesos Directos a Aplicaciones:** Puedes anclar aplicaciones a la barra de tareas para tener accesos directos a las aplicaciones que usas con mayor frecuencia. Estos accesos directos permanecen en la barra de tareas incluso cuando las aplicaciones no están abiertas, lo que facilita su lanzamiento con un solo clic. En la captura, los accesos directos son el Explorador de Archivos y Google Chrome, lo demás son aplicaciones abiertas. Para anclar una aplicación en la barra de tareas, haz clic con el botón derecho del ratón sobre el icono de una aplicación y selecciona “Anclar a la barra de tareas”.
 
-   <img src="img/01-windows/image-20240705100413171.png" alt="Anclar aplicaciones a la barra de tareas" style="zoom: 70%;" />
+   <img src="img/01-windows/image-20240705100413171.png" alt="Anclar aplicaciones a la barra de tareas" class="rounded-4" style="zoom: 70%;" />
 
 5. **Aplicaciones Abiertas:** Las aplicaciones abiertas aparecen en la barra de tareas con un icono específico. Al hacer clic en estos iconos, puedes cambiar rápidamente entre las aplicaciones abiertas. También puedes ver una vista previa de la ventana al pasar el cursor sobre el icono.
 
-   ![image-20240705095407234](img/01-windows/image-20240705095407234.png)
+   ![image-20240705095407234](img/01-windows/image-20240705095407234.png){.rounded-4}
 
 6. **Área de Notificaciones (Bandeja del Sistema):** El área de notificaciones está situada en el extremo derecho de la barra de tareas. Muestra íconos de estado y notificaciones de diversas aplicaciones y servicios del sistema. Lo detallaremos en el siguiente punto.
 
@@ -189,7 +194,7 @@ Según la captura anterior, aparecen en orden los siguientes elementos:
 
 ## 🟦Bandeja del sistema
 
-![Área de notificaciones](img/01-windows/image-20240705103006333.png)
+![Área de notificaciones](img/01-windows/image-20240705103006333.png){.rounded-4}
 
 **Área de Notificaciones (Bandeja del Sistema):** El área de notificaciones está situada en el extremo derecho de la barra de tareas. Muestra íconos de estado y notificaciones de diversas aplicaciones y servicios del sistema. Está compuesta a su vez por:
 
@@ -201,7 +206,7 @@ Según la captura anterior, aparecen en orden los siguientes elementos:
 
 - **Configuración rápida:** Un panel que agrupa todas las notificaciones del sistema y ofrece accesos directos a configuraciones rápidas como Wi-Fi, modo avión, brillo de la pantalla, bluetooth, etc.
 
-  ![Configuración rápida](img/01-windows/image-20240705103646827.png)
+  ![Configuración rápida](img/01-windows/image-20240705103646827.png){.rounded-4}
 
 
 
@@ -209,7 +214,7 @@ Según la captura anterior, aparecen en orden los siguientes elementos:
 
 Ahora la caja de búsqueda se encuentra de modo permanente junto al botón de **Inicio**. Ahí podemos escribir una palabra o frase y ésta se buscará por partida doble: como elemento en nuestro ordenador o como búsqueda en Internet.
 
-<img src="img/01-windows/image-20240705105632068.png" alt="Barra de búsqueda" style="zoom:80%;" />
+<img src="img/01-windows/image-20240705105632068.png" alt="Barra de búsqueda" class="rounded-4" style="zoom:80%;" />
 
 Podemos ver que introducimos en la barra de búsqueda la palabra <kbd>casa</kbd>, y nos mostrará los resultados de archivos, carpetas y accesos a configuración de mi ordenador que contengan dicha palabra, pero también realizará búsquedas en internet y nos mostrará directamente ahí los resultados. 
 
@@ -278,17 +283,17 @@ Las ventanas son el componente principal en el que se ejecutan las aplicaciones 
 
 1. **Acoplar a la Mitad:** Arrastra la ventana a uno de los lados de la pantalla hasta que aparezca una sombra indicando la mitad de la pantalla, y luego suelta el ratón.
 
-   ![image-20240705112200244](img/01-windows/image-20240705112200244.png)
+   ![image-20240705112200244](img/01-windows/image-20240705112200244.png){.rounded-4}
 
 2. **Acoplar a un Cuarto:** Arrastra la ventana a una de las esquinas de la pantalla hasta que aparezca una sombra indicando un cuarto de la pantalla, y luego suelta el ratón.
 
-   ![image-20240705112237245](img/01-windows/image-20240705112237245.png)
+   ![image-20240705112237245](img/01-windows/image-20240705112237245.png){.rounded-4}
 
 3. **Método de Teclado:** Presiona <kbd>Win + Flecha izquierda/derecha/arriba/abajo</kbd> para ajustar rápidamente la ventana a la mitad o un cuarto de la pantalla.
 
 4. **Rejilla (A partir de Windows 11):** Este menú aparece cuando colocas el ratón sobre el botón maximizar o restaurar, y te permite reorganizar las ventanas abiertas en pantalla, distribuyéndolas simultáneamente en diseños en rejilla para aprovechar el espacio de la pantalla.
 
-   ![Rejilla de Windows 11](img/01-windows/image-20240705112659064.png)
+   ![Rejilla de Windows 11](img/01-windows/image-20240705112659064.png){.rounded-4}
 
 ## Alternar entre ventanas
 
@@ -298,7 +303,7 @@ Las ventanas son el componente principal en el que se ejecutan las aplicaciones 
 
 - **Cómo hacerlo:** Mantén presionada la tecla <kbd>Alt</kbd> y luego presiona repetidamente la tecla <kbd>Tab</kbd> para seleccionar la ventana deseada. Suelta ambas teclas para cambiar a la ventana seleccionada.
 
-  ![image-20240705113510191](img/01-windows/image-20240705113510191.png)
+  ![image-20240705113510191](img/01-windows/image-20240705113510191.png){.rounded-4}
 
 ## Cerrar ventanas
 
@@ -333,11 +338,11 @@ El Explorador de Archivos de Windows es la herramienta principal para gestionar 
 
 Es una aplicación más y suele estar representada por una carpeta con un diseño ligeramente distinto al resto de carpetas. Suele estar anclado en la barra de tareas de forma predeterminada.
 
-![Explorador de archivos](img/01-windows/image-20240705114458707.png)
+![Explorador de archivos](img/01-windows/image-20240705114458707.png){.rounded-4}
 
 Una vez que se abierto, nos aparece una ventana como la siguiente:
 
-<img src="img/01-windows/image-20240705114804823.png" alt="Explorador de archivos en Windows 11" style="zoom:80%;" />
+<img src="img/01-windows/image-20240705114804823.png" alt="Explorador de archivos en Windows 11" class="rounded-4" style="zoom:80%;" />
 
 A la izquierda nos aparecerán las distintas ubicaciones de nuestro equipo y al hacer clic sobre ellas, nos aparecerá a la derecha el contenido de dicha ubicación. 
 
@@ -353,7 +358,7 @@ A la izquierda nos aparecerán las distintas ubicaciones de nuestro equipo y al 
 
 Los **accesos directos** son un tipo de archivo cuyo objetivo es **abrir de forma inmediata el archivo al que está vinculado**, ya sea un ejecutable, una carpeta, una imagen, un documento, etc. 
 
-![Diferencia entre carpeta y acceso directo](img/01-windows/image-20240705124512420.png)
+![Diferencia entre carpeta y acceso directo](img/01-windows/image-20240705124512420.png){.rounded-4}
 
 Los accesos directos los podemos crear en cualquier parte, y los distinguimos porque, aunque el icono se puede personalizar, tienen un pequeño cuadradito con una flecha en su parte inferior izquierda. 
 
@@ -371,7 +376,7 @@ Por eso, aunque los accesos directos apuntan al archivo que ejecutan, son indepe
 
   - **⭐Arrastrando (Recomendado):** Si arrastras un archivo o carpeta con el **botón derecho**, al soltarlo el botón, nos aparecerá un menú contextual y podremos seleccionar <kbd>Crear iconos de acceso directo aquí</kbd>. Se recomienda esta forma ya que es la más simple y versátil.
 
-    ![Como crear un acceso directo](img/01-windows/crear-acceso-directo.gif)
+    ![Como crear un acceso directo](img/01-windows/crear-acceso-directo.gif){.rounded-4}
   
   
 
@@ -379,7 +384,7 @@ Por eso, aunque los accesos directos apuntan al archivo que ejecutan, son indepe
 
 El portapapeles es una función de Windows que permite almacenar temporalmente datos que has copiado o cortado, como texto, imágenes y archivos, para luego pegarlos en otra ubicación. Es una herramienta esencial para realizar tareas de copia y pega de manera eficiente. 
 
-<img src="img/01-windows/portapapeles.jpg" alt="Una representación graciosa del portapapeles de Windows" style="width: 50%;" />
+<img src="img/01-windows/portapapeles.jpg" alt="Una representación graciosa del portapapeles de Windows" class="rounded-4" style="width: 50%;" />
 
 ### Historial del portapapeles
 
@@ -392,7 +397,7 @@ En las versiones más recientes de Windows (10 en adelante), puedes activar y ac
 1. Presiona <kbd>Win + V</kbd> para abrir el historial del portapapeles. Si es la primera vez que lo abres, te pedirá que si quieres activarlo.
 2. Podrás ver todos los elementos que se han copiado al portapapeles. 
 
-<img src="img/01-windows/image-20240705122308490.png" alt="Historial del portapapeles" style="zoom:80%;" />
+<img src="img/01-windows/image-20240705122308490.png" alt="Historial del portapapeles" class="rounded-4" style="zoom:80%;" />
 
 > [!TIP]
 >
@@ -448,7 +453,7 @@ Elimina un archivo o carpeta, enviándolo a la papelera de reciclaje.
 
 ## Papelera de Reciclaje
 
-![Papelera de reciclaje](img/01-windows/image-20240705123647229.png)
+![Papelera de reciclaje](img/01-windows/image-20240705123647229.png){.rounded-4}
 
 **Qué hace:**
 La papelera de reciclaje almacena temporalmente los archivos y carpetas eliminados, permitiendo recuperarlos si se borraron por error. Su ubicación es un icono en el escritorio que cambia según tenga contenido o esté vacía.
@@ -463,7 +468,7 @@ La papelera de reciclaje almacena temporalmente los archivos y carpetas eliminad
 **Cómo funciona:**
 
 1. **Uso:** Cuando borramos un archivo o carpeta, si no es excesivamente grande, se mueven automáticamente a la papelera de reciclaje. No hay que hacer nada en especial.
-2. ###### **Acceso:** Haz doble clic en el icono de la papelera de reciclaje en el escritorio para abrirla y ver su contenido.
+2. **Acceso:** Haz doble clic en el icono de la papelera de reciclaje en el escritorio para abrirla y ver su contenido.
 3. **Restaurar Archivos:**
    - Selecciona el archivo o carpeta que deseas recuperar.
    - Haz clic derecho sobre el elemento seleccionado y selecciona <kbd>Restaurar</kbd> del menú contextual. El archivo o carpeta se devolverá a su ubicación original.
@@ -481,7 +486,7 @@ La papelera de reciclaje almacena temporalmente los archivos y carpetas eliminad
 
 3. Ahora **COPIA** el texto de la caja de texto y **PÉGALO** debajo de la línea anterior, también en el Bloc de notas.
 
-   ```markdown
+   ```texto
    La transformación digital ha cambiado por completo la manera en que trabajamos, aprendemos y nos comunicamos.
    Hoy en día, las competencias digitales no son opcionales: son una necesidad básica para desenvolverse en la sociedad actual.
    Desde la gestión de archivos en la nube hasta la seguridad de la información, cada habilidad tecnológica suma valor.
@@ -521,7 +526,7 @@ Cada vez que empiezas a trabajar con Windows, debes de iniciar sesión con una c
 >
 > Las cuentas de usuarios en Windows son como los perfiles que usas en cualquier plataforma de vídeo como Netflix, Disney+ o HBO.
 >
-> <img src="img/01-windows/image-20251101194510844.png" alt="Ejemplo de Perfiles en Disney+" style="width:75%" />
+> <img src="img/01-windows/image-20251101194510844.png" alt="Ejemplo de Perfiles en Disney+" class="rounded-4" style="width:75%" />
 
 Es conveniente que **cada persona que use el PC lo haga en una cuenta de usuario por separado**. Esto proporciona varias ventajas como: 
 
@@ -531,7 +536,7 @@ Es conveniente que **cada persona que use el PC lo haga en una cuenta de usuario
 
 > [!TIP]
 >
-> 🫧Cuando se elimina una cuenta de usuario, todos sus archivos y configuraciones se eliminan también. Esto significa que si hay algún problema con una cuenta específica, no afectará a las otras cuentas de usuario en el PC.
+> 🧹 Cuando se elimina una cuenta de usuario, todos sus archivos y configuraciones se eliminan también. Esto significa que si hay algún problema con una cuenta específica, no afectará a las otras cuentas de usuario en el PC.
 
 Administrar las cuentas de usuario en Windows es esencial para mantener la seguridad y organización en tu equipo. Hay diferentes tipos de cuentas que ofrecen distintas funcionalidades y niveles de acceso. 
 
@@ -564,7 +569,12 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
 - Ventajas:
   - **Seguridad:** Reduce el riesgo de instalar software malicioso y realizar cambios que puedan dañar el sistema.
   - **Protección:** Ideal para niños o usuarios que no necesitan realizar tareas administrativas.
-- **Usos Comunes:** Navegar por internet, usar aplicaciones, realizar tareas diarias.
+
+> [!note]
+>
+> **Usos Comunes:** Navegar por internet, usar aplicaciones, realizar tareas diarias.
+
+
 
 🦸**Administrador:** Una cuenta de administrador tiene permisos completos para realizar cualquier cambio en el sistema, incluyendo la instalación de software, cambios en la configuración del sistema y la gestión de otras cuentas de usuario.
 
@@ -573,7 +583,10 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
   - **Acceso Total:** Necesario para tareas administrativas y de mantenimiento del sistema.
 - Desventajas:
   - **Riesgo de Seguridad:** Usar una cuenta de administrador para tareas cotidianas puede aumentar el riesgo de cambios accidentales o de instalar software malicioso.
-  - **Recomendación:** Es mejor utilizar una cuenta de usuario estándar para actividades diarias y solo usar la cuenta de administrador cuando sea necesario para realizar tareas específicas.
+
+> [!tip]
+>
+> Es mejor utilizar una cuenta de usuario estándar para actividades diarias y solo usar la cuenta de administrador cuando sea necesario para realizar tareas específicas.
 
 
 
@@ -601,7 +614,7 @@ En esta sección, explicaremos las diferencias entre las cuentas locales y las c
 
 Para crear o modificar cuentas de usuario, puedes ir al **Panel de Control** y seleccionar **"Cuentas de usuario"**. Desde allí, puedes crear nuevas cuentas, cambiar el tipo de cuenta y gestionar las configuraciones de las cuentas existentes.
 
-<img src="img/01-windows/image-20240705143752529.png" alt="Cuentas de usuario en el panel de control" style="width:70%" />
+![Cuentas de usuario en el panel de control](img/01-windows/image-20240705143752529.png){.rounded-4}
 
 > [!NOTE]
 >
@@ -611,7 +624,7 @@ Para crear o modificar cuentas de usuario, puedes ir al **Panel de Control** y s
 
 Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer desde el **Menú Inicio**, pulsando sobre el icono de tu usuario:
 
-<img src="img/01-windows/image-20240705144548460.png" alt="Cambiar de usuario" style="width:35%" />
+<img src="img/01-windows/image-20240705144548460.png" alt="Cambiar de usuario" class="rounded-4" style="width:35%" />
 
 
 
@@ -621,11 +634,11 @@ Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer 
 
 - **Paint**: Es una aplicación de dibujo básica que permite crear y editar imágenes sencillas. Ideal para tareas de edición rápida y anotaciones gráficas.
 
-  ![Paint](img/01-windows/image-20240705155440212.png)
+  ![Paint](img/01-windows/image-20240705155440212.png){.rounded-4}
 
 - **Bloc de Notas (Notepad)**: Es un editor de texto simple para escribir y editar documentos de texto plano. Útil para tomar notas rápidas y editar archivos de configuración.
 
-  ![Bloc de notas](img/01-windows/image-20240705155516024.png)
+  ![Bloc de notas](img/01-windows/image-20240705155516024.png){.rounded-4}
 
 - **WordPad**: Es un procesador de textos básico que ofrece más funcionalidades que el Bloc de Notas, como el formato de texto y la inserción de imágenes. Adecuado para documentos simples. 
 
@@ -633,15 +646,15 @@ Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer 
   >
   > En las versiones modernas de Windows 11, Wordpad ya no está disponible.
 
-  ![WordPad](img/01-windows/image-20240705155624504.png)
+  ![WordPad](img/01-windows/image-20240705155624504.png){.rounded-4}
 
 - **Calculadora**: Es una aplicación que ofrece funciones básicas y avanzadas de cálculo, incluyendo modos estándar, científico, programador y de conversión de unidades.
 
-  <img src="img/01-windows/image-20240705155706632.png" alt="Calculadora" style="zoom:67%;" />
+  ![Calculadora](img/01-windows/image-20240705155706632.png){.rounded-4}
 
 - **Microsoft Edge**: Es el navegador web predeterminado de Windows, basado en Chromium, que ofrece navegación rápida y segura por internet.
 
-  ![Edge](img/01-windows/image-20240705155834671.png)
+  ![Edge](img/01-windows/image-20240705155834671.png){.rounded-4}
 
 - **Correo (Mail)**: La aplicación de Correo permite gestionar múltiples cuentas de correo electrónico en una interfaz unificada, facilitando el acceso y la organización de tus correos.
 
@@ -653,21 +666,21 @@ Para cambiar el usuario activo o bien cerrar la sesión actual, lo puedes hacer 
 
 - **Grabadora de Sonido**: Grabadora de sonidos permite grabar audio utilizando el micrófono del dispositivo, ideal para notas de voz y grabaciones rápidas.
 
-  <img src="img/01-windows/image-20240705160101673.png" alt="Grabadora de sonidos" style="zoom:80%;" />
+  ![Grabadora de sonidos](img/01-windows/image-20240705160101673.png){.rounded-4}
 
 - **Solitaire Collection**: Incluye varios juegos de cartas clásicos como Klondike, Spider y FreeCell, proporcionando entretenimiento y relajación.
 
-  ![Solitario y juegos de Windows](img/01-windows/image-20240705160255643.png)
+  ![Solitario y juegos de Windows](img/01-windows/image-20240705160255643.png){.rounded-4}
 
 - **Reloj**: Incluye funciones de alarma, cronómetro, temporizador y reloj mundial para gestionar el tiempo de manera efectiva. En Windows 11, trae incorporado un control de sesiones de concentración para aplicar la [técnica Pomodoro 🍅](https://www.google.com/search?q=que+es+la+t%C3%A9cnica+pomodoro).
 
-  ![Reloj](img/01-windows/image-20240705160542347.png)
+  ![Reloj](img/01-windows/image-20240705160542347.png){.rounded-4}
 
 - **Configuración** / **Panel de control**: Centralizan todas las opciones de configuración del sistema, permitiendo personalizar y gestionar el funcionamiento de Windows.
 
-  <img src="img/01-windows/image-20240705143752529.png" alt="Panel de control" style="width:70%" />
+  ![Cuentas de usuario en el panel de control](img/01-windows/image-20240705143752529.png){.rounded-4}
 
-  ![Configuración](img/01-windows/image-20240705162537491.png)
+  ![Configuración](img/01-windows/image-20240705162537491.png){.rounded-4}
 
 
 
@@ -681,15 +694,15 @@ El servicio de **Windows Update se encarga de buscar, descargar e instalar** las
 
 Aunque las actualizaciones se instalan automáticamente, puedes verificar manualmente si hay actualizaciones disponibles y forzar la instalación desde `Barra de Búsqueda > Windows Update (o Buscar actualizaciones)`.
 
-![Pantalla de Windows Update](img/01-windows/image-20240705143046942.png)
+![Pantalla de Windows Update](img/01-windows/image-20240705143046942.png){.rounded-4}
 
 Si se instala alguna actualización que necesite reiniciar, te aparecerá un icono en la bandeja del sistema indicando que se ha descargado la actualización y está pendiente de reiniciar para poder instalarla. Si haces clic te lleva a la pantalla anterior.
 
-![Actualizaciones pendientes](img/01-windows/image-20240705143015910.png)
+![Actualizaciones pendientes](img/01-windows/image-20240705143015910.png){.rounded-4}
 
 También, en el menú apagado, si hay actualizaciones pendientes aparecerán opciones para actualizar primero y reiniciar o apagar después.
 
-![image-20240705163628710](img/01-windows/image-20240705163628710.png)
+![image-20240705163628710](img/01-windows/image-20240705163628710.png){.rounded-4}
 
 > [!important]
 >
