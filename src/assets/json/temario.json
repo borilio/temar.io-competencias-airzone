@@ -136,7 +136,7 @@
           "emoji": "",
           "icon": "pi pi-angle-right",
           "severity": "primary",
-          "outlined": false,
+          "outlined": true,
           "habilitado": true
         },
         {
