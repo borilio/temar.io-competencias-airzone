@@ -1,0 +1,40 @@
+.tarjeta {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /* Borde simple y redondeado usando el color primario de PrimeNG */
+    border: 1px solid var(--p-primary-500);
+    border-radius: 10px; 
+    overflow: hidden; /* Para que el contenido respete los bordes */
+}
+
+/* Posiciona el speed dial en la esquina inferior izquierda */
+.boton-flotante {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 1000;
+}
+
+.acrilico {
+  background-color: color-mix(in srgb, var(--p-primary-500) 30%, transparent);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--p-primary-500, #fff);
+}
+
+.cabecera-temario {
+  padding: 1.5rem;
+  text-align: center; 
+  font-size: 2.5rem; 
+  display: inline-block; 
+  width: 100%;
+}
+
+.navegacion-temario {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1.5rem;
+}

@@ -1,0 +1,158 @@
+{
+  "tituloGeneral": "Curso Competencias Digitales",
+  "descripcion": "🎯 Objetivos: Desarrollar las competencias digitales necesarias para utilizar de forma autónoma y eficaz herramientas informáticas y móviles de comunicación, organización, acceso a la información y trabajo colaborativo en el entorno laboral.\n\n📖 Aprenderemos a utilizar herramientas digitales como Windows, el correo electrónico, videollamadas, almacenamiento y gestión de archivos, comunicación online, ciberseguridad e inteligencia artificial.",
+  "img": "img/banner-competencias-digitales.png",
+  "mostrarBloquesEnMenu": false,
+  "bloques": [
+    {
+      "id": "troncal",
+      "orden": 1,
+      "titulo": "Temario",
+      "mostrarTitulo": true,
+      "descripcion": "",
+      "img": "",
+      "emoji": "📚",
+      "icon": "",
+      "color": "#26D2E530",
+      "expandible": true,
+      "contraido": false,
+      "habilitado": true,
+      "temas": [
+        {
+          "id": "intro",
+          "orden": 1,
+          "titulo": "Introducción",
+          "descripcion": "Introducción al curso",
+          "archivoMd": "00-intro.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "windows",
+          "orden": 2,
+          "titulo": "Sistemas operativos: Introducción a Windows",
+          "descripcion": "Introducción básica de Windows y nociones generales de sistemas operativos",
+          "archivoMd": "01-windows.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "internet",
+          "orden": 3,
+          "titulo": "Internet e Inteligencia Artificial",
+          "descripcion": "Introducción básica a nociones de internet, navegadores, correo electrónico e Inteligencia Artificial",
+          "archivoMd": "03-internet.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "seguridad",
+          "orden": 4,
+          "titulo": "Ciberseguridad: Internet seguro",
+          "descripcion": "Introducción básica a ciberseguridad",
+          "archivoMd": "04-seguridad.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "outlook",
+          "orden": 5,
+          "titulo": "Outlook: Correo, calendario y contactos",
+          "descripcion": "Outlook: Correo, calendario y contactos",
+          "archivoMd": "05-outlook.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "teams",
+          "orden": 6,
+          "titulo": "Microsoft Teams",
+          "descripcion": "Microsoft Teams: mensajería instantánea y video llamadas",
+          "archivoMd": "06-teams.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "documentacion",
+          "orden": 7,
+          "titulo": "Documentación digital: PDF",
+          "descripcion": "Documentación digital: PDF. Como escanear, compartir, firmar y compartir documentos digitales",
+          "archivoMd": "07-documentacion.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        }
+
+      ]
+    },
+    {
+      "id": "pildoras",
+      "orden": 1,
+      "titulo": "Píldoras",
+      "mostrarTitulo": true,
+      "descripcion": "Contenido adicional que puede usarse de forma independiente al temario original del curso.",
+      "img": "",
+      "emoji": "💊",
+      "icon": "",
+      "color": "#9D72BC30",
+      "expandible": true,
+      "contraido": true,
+      "habilitado": true,
+      "temas": [
+        {
+          "id": "ofimatica",
+          "orden": 1,
+          "titulo": "Ofimática Básica: Microsoft 365",
+          "descripcion": "Introducción básica a programas de ofimática",
+          "archivoMd": "02-ofimatica.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": false,
+          "habilitado": true
+        },
+        {
+          "id": "certificado",
+          "orden": 2,
+          "titulo": "Certificado Digital y Mi Carpeta Ciudadana",
+          "descripcion": "Certificado Digital: Como solicitarlo, instalarlo, renovarlo o eliminarlo.  ",
+          "archivoMd": "certificado.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": true,
+          "habilitado": true
+        }
+      ]
+    }
+  ]
+}

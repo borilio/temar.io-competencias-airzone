@@ -1,0 +1,67 @@
+{
+    "preset": "MiPresetCyan",
+    "defaultThemeId": "typora",
+    "mostrarLigadurasFuentes": true,
+    "devMode": false,
+    "data": {
+        "copyright": "",
+        "logos": [
+            {
+                "img": "img/logo1.png",
+                "link": "https://www.airzonecontrol.com/ib/es/academy/",
+                "alt": "Logo de Airzone"
+            }
+        ]
+    },
+    "themes": [
+        {
+            "id": "github-light",
+            "name": "Claro",
+            "baseMode": "light",
+            "markdownThemeFile": "github-markdown-light.css",
+            "highlightThemeFile": "github.css"
+        },
+        {
+            "id": "typora",
+            "name": "Oscuro",
+            "baseMode": "dark",
+            "markdownThemeFile": "github-markdown-darky.css",
+            "highlightThemeFile": "base16/dracula.css"
+        }
+    ],
+    "enlacesExternos": {
+        "texto": "Aquí se mostrarán todos los enlaces externos que usaremos durante el curso, tales como ejercicios, calendarios, plataforma educativa, plataforma de mensajería, etc.",
+        "enlaces": [
+            {
+                "icon":"pi pi-file-check",
+                "desc": "Ejercicios prácticos (hoja compartida de Google Docs)",
+                "href": "https://docs.google.com/document/d/14HUOSp6KJN_JTUYmu1SqZ2Bpkl8BAF6R6BUwEEAHEN8/edit?usp=sharing"
+            },
+            {
+                "icon": "pi pi-envelope",
+                "desc": "Correo contacto: tutor.airzone@outlook.es",
+                "href": "mailto:tutor.airzone@outlook.es"
+            },
+            {
+                "icon": "pi pi-microsoft",
+                "desc": "Temar.io de Microsoft 365",
+                "descLarga": "",
+                "href": "https://curso-office365.netlify.app"
+            },
+            {
+                "icon": "pi pi-graduation-cap",
+                "desc": "Cuestionario Inicial",
+                "descLarga": "Cuestionario que inicial que hacemos el primer día de curso, para conocernos un poquito más",
+                "href": "https://forms.office.com/e/XfSxdb5jrZ",
+                "disabled": true
+            }
+            
+        ]
+    },
+    "caducidad": {
+        "fecha": "2026-08-01",
+        "aviso": 15,
+        "mensajeAviso": "Los contenidos de este curso se cerrarán próximamente.",
+        "mensajeCerrado": "Lo sentimos, este curso ya no está disponible."
+    }
+}

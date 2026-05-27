@@ -1,0 +1,96 @@
+<div class="tarjeta">
+
+    @if (cargandoContenido) {
+    <!-- Si está cargando todavía contenidos...-->
+    <p-card>
+        <div class="text-center">
+            <p class="lead">{{fraseCargando}}</p>
+            <p-progress-spinner aria-label="Cargando contenidos"></p-progress-spinner>
+            <div class="p-4">
+                <p-skeleton width="60%" height="2.5rem" class="mb-4"></p-skeleton>
+                <p-skeleton class="mb-2"></p-skeleton>
+                <p-skeleton width="85%" class="mb-4"></p-skeleton>
+                <p-skeleton height="200px" class="mb-4"></p-skeleton>
+                <p-skeleton width="40%" height="2rem" class="mb-3"></p-skeleton>
+            </div>
+        </div>
+    </p-card>
+    } @else if (hayError) {
+    <!-- Si hay un error al obtener los contenidos... -->
+    <p-card header="Error">
+        <div class="alert alert-danger text-center">
+            <span>🙄Ese tema creo que no existe</span>
+        </div>
+    </p-card>
+    } @else {
+    <!-- ******* Si todo fue bien y ya tenemos los contenidos *******-->
+    <!-- Cabecera automática de los contenidos -->
+    <div class="cabecera-temario degradado">
+        <p>{{temaActual?.titulo}}</p>
+    </div>
+    
+    <!-- El contenido markdown que le sigue -->
+    <div [innerHTML]="contenidoHTML" class="markdown-body" [class.disable-ligaduras]="!configService.mostrarLigaduras"></div>
+    
+    <!-- La navegación para siguiente y anterior -->
+    <div class="navegacion-temario degradado">
+        <p-button
+            icon="pi pi-angle-left"
+            severity="primary"            
+            rounded="true"
+            tooltipPosition="left"
+            [pTooltip]="temaAnterior?.titulo || 'No hay tema anterior'"
+            [disabled]="!temaAnterior"
+            (click)="irAnterior()"
+        ></p-button>
+            
+        <p-button
+            icon="pi pi-angle-right"
+            severity="primary"            
+            rounded="true"
+            tooltipPosition="right"
+            [pTooltip]="temaSiguiente?.titulo || 'No hay tema siguiente'"
+            [disabled]="!temaSiguiente"
+            (click)="irSiguiente()"
+        ></p-button>
+    </div>
+    
+
+}
+</div>
+
+
+<!-- DE AQUÍ PARA ABAJO HAY ELEMENTOS VARIOS POSICIONADOS DE FORMA ABSOLUTA -->
+
+<!-- Botón flotante para mostrar TOC (o speeddial si hay más acciones) -->
+<!-- <p-button [hidden]="this.cargandoContenido || !tocHTML" icon="pi pi-list" pTooltip="Mostrar índice de contenidos"
+    tooltipPosition="right" severity="primary" outlined="true" rounded="true" class="boton-flotante"
+    (click)="this.mostrarDrawer = true" /> -->
+    <p-speeddial 
+        [hidden]="this.cargandoContenido"
+        [model]="speedDialItems" 
+        showIcon="pi pi-compass" 
+        direction="right"    
+        class="boton-flotante"
+        buttonClassName="acrilico"
+        [buttonProps]="{ severity: 'primary'}" 
+        [tooltipOptions]="{ tooltipPosition: 'top' }"
+    /> 
+
+<!-- 
+    Menú lateral (drawer) donde mostraremos el índice de contenidos TOC del tema 
+    Está oculto por defecto y se muestra al pulsar el botón     
+-->
+<p-drawer [(visible)]="mostrarDrawer" closeOnEscape="true" position="left" (onShow)="this.arreglarAnclas()">
+    <ng-template pTemplate="header">
+        <h3>Índice de contenidos</h3>
+    </ng-template>
+    <p-divider></p-divider>
+    <h5>{{temaActual?.titulo}}</h5>
+
+    <div [innerHTML]="tocHTML" class="table-of-contents"></div>
+</p-drawer>
+
+
+<!-- TOAST con los mensajes que se muestren -->
+<p-toast position="top-center" />

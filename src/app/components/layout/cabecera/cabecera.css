@@ -1,0 +1,36 @@
+/* Contenedor para alinear logo y título */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem; /* Espacio entre el logo y el texto */
+  text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+/* Estilo para el logo */
+.menubar-logo {
+  height: 25px;
+}
+
+/* Estilo para el título */
+.menubar-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--p-primary-500); /* Color de texto del tema */
+}
+
+/* Efecto acrílico / Frosted glass */
+.acrilico {
+  background-color: color-mix(in srgb, var(--p-primary-500) 30%, transparent);
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid var(--p-primary-500, #fff);
+}
+
+.sombra-grande {
+  box-shadow:
+    0 0 12px rgba(0, 0, 0, 0.45),
+    0 4px 10px rgba(0, 0, 0, 0.40),
+    0 -4px 10px rgba(0, 0, 0, 0.40);
+}
