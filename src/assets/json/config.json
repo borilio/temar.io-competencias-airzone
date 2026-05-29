@@ -52,15 +52,15 @@
                 "icon": "pi pi-graduation-cap",
                 "desc": "Cuestionario Inicial",
                 "descLarga": "Cuestionario que inicial que hacemos el primer día de curso, para conocernos un poquito más",
-                "href": "https://forms.office.com/e/XfSxdb5jrZ",
-                "disabled": true
+                "href": "https://forms.gle/FpCYhBtUMF2pwDrD6",
+                "disabled": false
             }
             
         ]
     },
     "caducidad": {
         "fecha": "2026-08-01",
-        "aviso": 15,
+        "aviso": 10,
         "mensajeAviso": "Los contenidos de este curso se cerrarán próximamente.",
         "mensajeCerrado": "Lo sentimos, este curso ya no está disponible."
     }
