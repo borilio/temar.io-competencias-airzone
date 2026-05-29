@@ -330,7 +330,7 @@ Windows proporciona varias herramientas de seguridad que están integradas en el
 
 > [!NOTE]
 >
-> En Windows 11, todo lo descrito anteriormente está centralizado en la aplicación Seguridad de Windows ➡️![Aplicación Seguridad de Windows 11](img/04-seguridad/image-20240710154326095.png){.img-inline}
+> En Windows 11, todo lo descrito anteriormente está centralizado en la aplicación Seguridad de Windows ➡️![Aplicación Seguridad de Windows 11](img/04-seguridad/image-20240710154326095.png){.img-inline .rounded-4}
 
 
 
@@ -338,7 +338,7 @@ Windows proporciona varias herramientas de seguridad que están integradas en el
 
 **Objetivo:** Simular un archivo malicioso (sin peligro real) y comprobar si el antivirus de Windows lo detecta correctamente.
 
-> [!warning]
+> [!warning] 
 > **Este texto no contiene ningún virus real**. Es una prueba oficial (EICAR) reconocida por todos los antivirus. Podemos decir que es un “virus inofensivo” 🦠😇.
 
 **1. Crear el archivo**
@@ -347,7 +347,7 @@ Windows proporciona varias herramientas de seguridad que están integradas en el
 
 - Copia y pega la línea siguiente:
 
-  ```
+  ```texto
   X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
   ```
 

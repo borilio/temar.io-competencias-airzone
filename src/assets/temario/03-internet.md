@@ -339,12 +339,12 @@ ChatGPT es un modelo de lenguaje avanzado desarrollado por OpenAI. Utiliza intel
 - Dispone de un modo llamado *Deep Research*, que permite realizar investigaciones más profundas, con respuestas extensas, citadas y respaldadas con fuentes verificables. Este modo es ideal para trabajos académicos o tareas complejas que requieren rigor informativo.
 - Puede generar imágenes a partir de descripciones escritas utilizando el modelo DALL·E, ideal para ilustraciones, conceptos visuales, diseño y creatividad.
 
-<img src="img/03-internet/image-20250703131621714.png" alt="Captura de uso de la web ChatGPT para la redacción de este mismo artículo" style="zoom:67%;" />
+<img src="img/03-internet/image-20250703131621714.png" alt="Captura de uso de la web ChatGPT para la redacción de este mismo artículo" class="rounded-4" />
 
 
 ### Microsoft Copilot
 
-<img src="img/03-internet/microsoft-copilot-logo.png" alt="Logo de Microsoft Copilot" width="60%" />
+![Logo de Microsoft Copilot](img/03-internet/microsoft-copilot-logo.png){.rounded-4}
 
 Microsoft Copilot es una herramienta de inteligencia artificial integrada en aplicaciones de Microsoft 365 como Word, Excel, Outlook, PowerPoint y Teams. Asiste a los usuarios en la redacción, análisis de datos, generación de contenido, automatización de tareas y mejora de la productividad en el entorno laboral.
 
@@ -369,15 +369,15 @@ Google Gemini es una plataforma de IA desarrollada por Google que se enfoca en l
 
 - Puede describir imágenes.
 
-  <img src="img/03-internet/image-20240710104300856.png" alt="Ejemplo de descripción de imágenes usando Gemini" width="50%" />
+  ![Ejemplo de descripción de imágenes usando Gemini](img/03-internet/image-20240710104300856.png){.rounded-4}
 
 - Se puede instalar como asistente de voz en un dispositivo móvil. Puedes [encontrarlo en la tienda de aplicaciones de android](https://play.google.com/store/apps/details?id=com.google.android.apps.bard).
 
-<img src="img/03-internet/image-20240710103047471.png" alt="Captura de pantalla de un móvil usando Google Gemini como asistente de voz" width="50%" />
+![Captura de pantalla de un móvil usando Google Gemini como asistente de voz](img/03-internet/image-20240710103047471.png){.rounded-4}
 
 ### Perplexity
 
-<img src="img/03-internet/perplexity-logo.png" alt="Logo de Perplexity AI" width="60%" />
+![Logo de Perplexity AI](img/03-internet/perplexity-logo.png){.rounded-4}
 
 Perplexity es un asistente de inteligencia artificial centrado en la búsqueda de información con fuentes verificables. Combina modelos de lenguaje avanzados con acceso en tiempo real a internet, ofreciendo respuestas claras, concisas y siempre acompañadas de referencias. Está diseñado especialmente para quienes necesitan respuestas confiables y actualizadas rápidamente.
 

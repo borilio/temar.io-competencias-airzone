@@ -1,23 +1,15 @@
-<div style="padding: 1.5rem; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; background-color: #d9edf7; border-color: #bce8f1; color: #31708f; text-align: center; font-size: 2.5rem; display: inline-block; width: 100%;">
-    <p>Microsoft Teams</p>
-    <p style="font-size: 1.5rem">Comunicación y Colaboración en Equipo</p>
-</div>
-
-
 [TOC]
-
----
 
 
 # Introducción a Microsoft Teams
 
 Esta herramienta **centraliza la comunicación y la colaboración en un solo lugar**. Equipos de trabajo de cualquier organización pueden coordinarse, organizarse y colaborar a través de conversaciones, reuniones, archivos y tareas, todo desde una misma plataforma. Esto es especialmente útil en una ONG, ya que permite a empleados y voluntarios conectar y colaborar sin importar dónde se encuentren.
 
-![Software de comunicación para pequeñas empresas | Microsoft Teams](img/teams/Blade001_Hero_960x620_x2resMode=sharp2&op_usm=1.5,0.webp)
+![Software de comunicación para pequeñas empresas | Microsoft Teams](img/06-teams/Blade001_Hero_960x620_x2resMode=sharp2&op_usm=1.5,0.webp){.rounded-4}
 
-![Microsoft Teams gratis | Microsoft Teams](img/teams/Blade004_CommunicateInReal_960x620resMode=sharp2&op_usm=1.5,0.webp)
+![Microsoft Teams gratis | Microsoft Teams](img/06-teams/Blade004_CommunicateInReal_960x620resMode=sharp2&op_usm=1.5,0.webp){.rounded-4}
 
-![Teléfono Microsoft Teams | Microsoft Teams](img/teams/RE55QWp_microsoft-teams-phoneresMode=sharp2&op_usm=1.5,0.webp)
+![Teléfono Microsoft Teams | Microsoft Teams](img/06-teams/RE55QWp_microsoft-teams-phoneresMode=sharp2&op_usm=1.5,0.webp){.rounded-4}
 
 # Creación y organización de equipos y canales
 
@@ -25,15 +17,15 @@ Esta herramienta **centraliza la comunicación y la colaboración en un solo lug
 
 1. **Crear un equipo:** Para iniciar, en la pantalla principal de Teams, selecciona **Equipos** > **Unirse o crear un equipo** > **Crear un equipo**. Puedes elegir entre varias opciones para crear un equipo según las necesidades del proyecto.
 
-   ![image-20241107222531236](img/teams/image-20241107222531236.png)
+   ![image-20241107222531236](img/06-teams/image-20241107222531236.png){.rounded-4}
 
 2. **Agregar miembros:** Tras crear el equipo, añade a los empleados o voluntarios que participarán en ese proyecto específico.
 
-   <img src="img/teams/image-20241107222849383.png" alt="image-20241107222849383" style="zoom:67%;" />
+   <img src="img/06-teams/image-20241107222849383.png" alt="image-20241107222849383" class="rounded-4" style="zoom:67%;" />
 
 3. **Canales:** Los canales permiten dividir el equipo en temas o áreas, organizando mejor la comunicación. Por ejemplo, podrías crear un canal para "Campañas de Donación" y otro para "Eventos Locales".
 
-   <img src="img/teams/image-20241107223009969.png" alt="image-20241107223009969" style="zoom:67%;" />
+   <img src="img/06-teams/image-20241107223009969.png" alt="image-20241107223009969" class="rounded-4" style="zoom:67%;" />
 
 > [!TIP]
 >
@@ -43,7 +35,7 @@ Esta herramienta **centraliza la comunicación y la colaboración en un solo lug
 
 👩‍🏫**Ejemplo:** Para la formación de este curso haremos lo siguiente:
 
-1. **Creamos un EQUIPO:** Lo creará el formador y verás algunos detalles de como configurar y crear tu equipo. Lo llamaremos **`2025-07 Microsoft 365`** o algo parecido.
+1. **Creamos un EQUIPO:** Lo creará el formador y verás algunos detalles de como configurar y crear tu equipo. Lo llamaremos **`2026-06 Microsoft 365`** o algo parecido.
 2. **Añadimos los MIEMBROS:** Una vez creado el equipo, el siguiente paso es añadirle los miembros. Se pueden unir de varias formas:
    1. **Añadiendo los miembros manualmente:** Cada miembro recibirá una invitación en su correo electrónico para unirse al equipo.
    2. **Compartiendo un enlace:** Puedes crear un enlace de invitación y enviarlo o publicarlo donde quieras, de forma que cualquier persona que pueda acceder al enlace pueda unirse al equipo.
@@ -84,15 +76,15 @@ Para iniciar una conversación en un canal, selecciona el canal deseado, escribe
 >
 > Recuerda que los mensajes en un canal son públicos para todos los miembros del equipo, así que cuidadito con lo que se publica.
 
-![image-20241108104328100](img/teams/image-20241108104328100.png)
+![image-20241108104328100](img/06-teams/image-20241108104328100.png){.rounded-4}
 
-![image-20241108105511511](img/teams/image-20241108105511511.png)
+![image-20241108105511511](img/06-teams/image-20241108105511511.png){.rounded-4}
 
 > [!tip]
 >
 > En los mensajes tenemos bastantes herramientas para darle un formato a nuestros mensajes y ponerlos bien guapos. Podemos incluir imágenes, tablas, trozos de código, etc.
 
-![image-20241108105735614](img/teams/image-20241108105735614.png)
+![image-20241108105735614](img/06-teams/image-20241108105735614.png){.rounded-4}
 
 > [!tip]
 >
@@ -105,8 +97,8 @@ Cada mensaje publicado en un canal puede ser respondido directamente, generando 
 > [!caution]
 >
 > Si vas a responder a alguien, no crees una nueva publicación. Esto desvirtua totalmente la organización y hace que la información esté desordenada. Usa siempre la opción de `Responder` si tu intención es responder a un mensaje previo.
-
-<img src="img/teams/image-20241108110949080.png" alt="image-20241108110949080" style="zoom:67%;" />
+>
+> <img src="img/06-teams/image-20241108110949080.png" alt="image-20241108110949080" class="rounded-4" style="zoom:67%;" />
 
 > [!tip]
 >
@@ -120,7 +112,7 @@ Cada mensaje publicado en un canal puede ser respondido directamente, generando 
 
 1. **Iniciar un chat privado:** Para comenzar un chat privado, selecciona la pestaña **Chat** en la barra lateral izquierda y luego haz clic en **Nuevo chat** (el ícono de lápiz). Ingresa el nombre de la persona o personas con quienes quieres conversar y escribe tu mensaje.
 
-   ![image-20241108113738610](img/teams/image-20241108113738610.png)
+   ![image-20241108113738610](img/06-teams/image-20241108113738610.png){.rounded-4}
 
 2. **Agregar más personas a un chat existente:** Puedes añadir más personas a un chat en cualquier momento. Solo selecciona **Agregar participantes** y selecciona a los nuevos miembros. Teams te da la opción de incluir el historial de mensajes o empezar desde cero, según la relevancia de la conversación pasada para los nuevos integrantes.
 
@@ -134,7 +126,7 @@ Cada mensaje publicado en un canal puede ser respondido directamente, generando 
 
 **Las llamadas de voz y videollamadas** son ideales para aquellos momentos en que una conversación por texto no es suficiente. Con Teams, puedes hacer una llamada de voz o de video a otros miembros de tu equipo, ya sea de forma individual o en grupo, sin tener que salir de la plataforma.
 
-![image-20241108120204635](img/teams/image-20241108120204635.png)
+![image-20241108120204635](img/06-teams/image-20241108120204635.png){.rounded-4}
 
 1. **Realizar una llamada desde un chat:** Para iniciar una llamada, ve a cualquier chat (privado o en un canal) y selecciona el ícono de **Llamada** o **Videollamada** en la parte superior. Esto iniciará una llamada con todos los participantes del chat.
 2. **Llamadas de voz vs. videollamadas:** Las llamadas de voz son útiles para cuando quieres conversar sin usar la cámara, mientras que las videollamadas son mejores para reuniones cara a cara o presentaciones. Además, en ambas opciones puedes compartir tu pantalla y colaborar en documentos durante la llamada.
@@ -147,15 +139,13 @@ Cada mensaje publicado en un canal puede ser respondido directamente, generando 
 >
 > Además, recuerda que Teams está disponible como aplicación de escritorio pero también como aplicación móvil, por lo que es mucho más fácil estar conectados independientemente de que dispositivo estés usando.
 >
-> <img src="img/teams/image-20241108122347256.png" alt="image-20241108122347256" style="zoom:67%;" />
-
-
+> <img src="img/06-teams/image-20241108122347256.png" alt="image-20241108122347256" class="rounded-4" style="zoom:67%;" />
 
 # Colaboración en archivos dentro de Teams
 
 **Un aspecto destacado de Teams** es su capacidad para trabajar en documentos de manera colaborativa. Esto permite a varios miembros editar documentos en tiempo real y mantener los archivos organizados y centralizados en un solo lugar.
 
-![image-20241108125820083](img/teams/image-20241108125820083.png)
+![image-20241108125820083](img/06-teams/image-20241108125820083.png){.rounded-4}
 
 1. **Subir y organizar archivos:** La pestaña **Archivos** en cada canal facilita el almacenamiento de documentos importantes. Desde aquí, puedes subir archivos y mantener una organización clara.
 2. **Edición en tiempo real:** Los documentos cargados en un canal pueden ser editados por varios miembros al mismo tiempo, lo que permite colaborar de manera directa y evitar duplicados.
@@ -169,7 +159,7 @@ Cada mensaje publicado en un canal puede ser respondido directamente, generando 
 
 **La planificación y organización de reuniones** es esencial para el trabajo en equipo en una ONG. Teams ofrece herramientas que simplifican la programación de reuniones, asegurando que todos los participantes puedan asistir y recordando los compromisos de cada miembro.
 
-![image-20241108134803460](img/teams/image-20241108134803460.png)
+![image-20241108134803460](img/06-teams/image-20241108134803460.png){.rounded-4}
 
 > [!note]
 >
@@ -183,9 +173,9 @@ Cada mensaje publicado en un canal puede ser respondido directamente, generando 
 >
 > Al programar una reunión, se publicará automáticamente en el canal `General` (o el que elijas) un mensaje con la información de la reunión y un botón para unirse cuando llegue el momento.
 >
-> ![image-20241108134842714](img/teams/image-20241108134842714.png)
+> ![image-20241108134842714](img/06-teams/image-20241108134842714.png){.rounded-4}
 
-# Buenas Prácticas para el Uso de Teams en una organización
+# Buenas prácticas para el uso de Teams en una organización
 
 **Finalmente**, es útil establecer buenas prácticas para sacar el máximo provecho de Teams y mantener la plataforma organizada. Esto asegura que la colaboración sea eficaz y que el entorno de trabajo se mantenga ordenado y accesible.
 
