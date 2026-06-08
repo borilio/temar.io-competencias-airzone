@@ -34,7 +34,8 @@
         "enlaces": [
             {
                 "icon":"pi pi-file-check",
-                "desc": "Ejercicios prácticos (hoja compartida de Google Docs)",
+                "desc": "Ejercicios prácticos",
+                "descLarga": "Ejercicios prácticos (hoja compartida de Google Docs)",
                 "href": "https://docs.google.com/document/d/14HUOSp6KJN_JTUYmu1SqZ2Bpkl8BAF6R6BUwEEAHEN8/edit?usp=sharing"
             },
             {
