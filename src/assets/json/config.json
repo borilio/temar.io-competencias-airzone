@@ -53,7 +53,7 @@
                 "desc": "Cuestionario Inicial",
                 "descLarga": "Cuestionario que inicial que hacemos el primer día de curso, para conocernos un poquito más",
                 "href": "https://forms.gle/FpCYhBtUMF2pwDrD6",
-                "disabled": false
+                "disabled": true
             }
             
         ]
