@@ -299,11 +299,7 @@ Estas agrupaciones ayudan a mantener tu correo electrónico organizado, facilita
 
 ---
 
-# ✨Inteligencia Artificial
-
-La inteligencia artificial (IA) es una rama de la informática que se dedica a crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana. Estas tareas incluyen el reconocimiento de voz, la toma de decisiones, la traducción de idiomas y mucho más.
-
-## Inteligencia Artificial Generativa
+# ✨Inteligencia Artificial Generativa
 
 La **inteligencia artificial generativa** es una rama de la IA que se centra en la **creación de contenido nuevo** y original a partir de datos existentes. Utiliza modelos avanzados de aprendizaje automático para **generar texto, imágenes, música, videos y más**. Por ejemplo, puede escribir un poema, crear una obra de arte digital o componer una melodía.
 
@@ -314,6 +310,45 @@ La **inteligencia artificial generativa** es una rama de la IA que se centra en 
 > ***Théâtre d'Opéra Spatial*** (Teatro de Ópera Espacial) es una pintura creada por Jason M. Allen utilizando la plataforma de Inteligencia Artificial generativa [Midjourney](https://es.wikipedia.org/wiki/Midjourney). La pintura se convirtió en noticia cuando ganó el concurso anual de bellas artes de la Feria Estatal de Colorado el 5 de septiembre de 2022, convirtiéndose en una de las primeras imágenes generadas por IA en ganar un premio.
 
 Esta tecnología es especialmente útil en aplicaciones como los **chatbots**, la creación de contenido multimedia y el diseño de productos, ya que puede producir resultados creativos y personalizados en respuesta a las indicaciones del usuario.
+
+## Prompts: cómo dar instrucciones a una IA
+
+![Interfaz de App de Gemini](img/03-internet/image-20260608110906478.png){.rounded-4}
+
+Cuando utilizamos una inteligencia artificial, el texto que escribimos para pedirle algo recibe el nombre de **prompt**. Podemos traducirlo como “petición”.
+
+Un prompt puede ser una pregunta, una instrucción o una descripción de lo que queremos obtener.
+
+Por ejemplo:
+
+- "Explícame qué es Internet."
+- "Resume este texto en cinco líneas."
+- "Genera una imagen de una playa al atardecer."
+- "Redacta un correo electrónico formal para pedir vacaciones en agosto."
+
+Cuanto más clara y específica sea la instrucción, mejores resultados obtendremos.
+
+> [!tip] Consejos útiles
+>
+> - 🎯 Sé específico y explica exactamente lo que necesitas.
+> - 📝 Añade contexto cuando sea necesario.
+> - 📋 Indica el formato que deseas (tabla, lista, resumen, etc.).
+> - 🔄 Si la respuesta no es la esperada, puedes pedir cambios o más detalles.
+> - ✅ Comprueba siempre la información importante antes de utilizarla.
+
+Por ejemplo, no es lo mismo escribir:
+
+> Háblame de perros.
+
+que escribir:
+
+> Recomiéndame tres razas de perros adecuadas para vivir en un piso pequeño y explica por qué.
+
+En general, cuanto mejor sea el prompt, más útil será la respuesta obtenida.
+
+
+
+## IA generalistas
 
 Podemos destacar varios chatbots gratuitos (con modelos de pago superiores mejorados) que podemos usar para realizar tareas cotidianas y en el trabajo. De todos ellos podremos realizar las siguientes tareas (cada uno a su forma):
 
@@ -330,14 +365,15 @@ Podemos destacar varios chatbots gratuitos (con modelos de pago superiores mejor
 
 <img src="img/03-internet/1690998329chatgpt-logo-with-text.png" alt="Logo de Chat GPT" width="60%" />
 
-ChatGPT es un modelo de lenguaje avanzado desarrollado por OpenAI. Utiliza inteligencia artificial para generar texto de manera coherente y natural en respuesta a las preguntas y solicitudes de los usuarios. Actualmente está basado en la arquitectura GPT-4, aunque también ofrece versiones anteriores como GPT-3.5, y puede realizar una gran variedad de tareas relacionadas con el lenguaje y el razonamiento.
+ChatGPT es un asistente de inteligencia artificial desarrollado por OpenAI. Permite mantener conversaciones en lenguaje natural y realizar una gran variedad de tareas a partir de instrucciones escritas por el usuario.
 
-> 🤖Página web https://chatgpt.com/
+> 🤖 Página web https://chatgpt.com/
 
-- Usa GPT-4 de OpenAI (en su versión Plus), aunque también está disponible GPT-3.5.
-- Puede acceder a información actualizada mediante búsqueda web en tiempo real, lo que le permite ofrecer respuestas basadas en datos recientes cuando es necesario.
-- Dispone de un modo llamado *Deep Research*, que permite realizar investigaciones más profundas, con respuestas extensas, citadas y respaldadas con fuentes verificables. Este modo es ideal para trabajos académicos o tareas complejas que requieren rigor informativo.
-- Puede generar imágenes a partir de descripciones escritas utilizando el modelo DALL·E, ideal para ilustraciones, conceptos visuales, diseño y creatividad.
+- Es una de las **herramientas de inteligencia artificial más populares** y utilizadas del mundo.
+- Destaca por su facilidad de uso y su capacidad para mantener conversaciones naturales.
+- Puede trabajar tanto con texto como con imágenes.
+- Está disponible desde navegador web y aplicaciones móviles.
+- Dispone de versiones gratuitas y de pago con funcionalidades adicionales.
 
 <img src="img/03-internet/image-20250703131621714.png" alt="Captura de uso de la web ChatGPT para la redacción de este mismo artículo" class="rounded-4" />
 
@@ -346,45 +382,70 @@ ChatGPT es un modelo de lenguaje avanzado desarrollado por OpenAI. Utiliza intel
 
 ![Logo de Microsoft Copilot](img/03-internet/microsoft-copilot-logo.png){.rounded-4}
 
-Microsoft Copilot es una herramienta de inteligencia artificial integrada en aplicaciones de Microsoft 365 como Word, Excel, Outlook, PowerPoint y Teams. Asiste a los usuarios en la redacción, análisis de datos, generación de contenido, automatización de tareas y mejora de la productividad en el entorno laboral.
+Microsoft Copilot es un asistente de inteligencia artificial desarrollado por Microsoft. Permite interactuar mediante lenguaje natural para obtener información, generar contenido y recibir ayuda en diferentes tareas personales y profesionales.
 
 > 🤖 Página web https://copilot.microsoft.com
 
-- Utiliza el modelo GPT-4 de OpenAI, integrado a través de la infraestructura de Azure AI.
-- Tiene acceso a información actualizada en tiempo real desde Bing, por lo que puede responder sobre eventos recientes o datos del momento.
-- Puede generar imágenes a partir de texto mediante el modelo [Dall·E](https://es.wikipedia.org/wiki/Dall-e) 3.
-- También puede interpretar y describir imágenes cargadas por el usuario, útil en presentaciones o análisis visuales.
-- Está profundamente integrado en el ecosistema de Microsoft, por lo que puede trabajar directamente con tus documentos, hojas de cálculo o correos electrónicos.
+- Está desarrollado por Microsoft y forma parte de su estrategia de inteligencia artificial.
+- Se integra con numerosos servicios y aplicaciones del ecosistema Microsoft (Windows, Word, Excel, PowerPoint, Teams, etc).
+- Puede trabajar con texto e imágenes.
+- Está disponible desde navegador web, aplicaciones móviles e integrado en productos de Microsoft.
+- Dispone de versiones gratuitas y de pago con funcionalidades adicionales.
 
 
 ### Google Gemini
 
 <img src="img/03-internet/Google_Gemini_logo.svg" alt="Logo Google Gemini" width="60%" />
 
-Google Gemini es una plataforma de IA desarrollada por Google que se enfoca en la generación de texto y la comprensión del lenguaje natural. Es útil para obtener respuestas rápidas y precisas a preguntas específicas. Tiene la ventaja de integrarse en todo el ecosistema de aplicaciones de Google.
+Google Gemini es un asistente de inteligencia artificial desarrollado por Google. Permite interactuar mediante lenguaje natural para obtener información y recibir ayuda en diferentes tareas personales, educativas y profesionales.
 
 > 🤖Página web https://gemini.google.com/
 
-- Tiene su propio modelo de lenguaje desarrollado por Google, llamado **Gemini**. Este modelo se basa en la familia de modelos **PaLM 2**, de Google AI, y no utiliza GPT de OpenAI.
+- Está desarrollado por Google y forma parte de su ecosistema de servicios.
 
-- Puede describir imágenes.
+- Su principal ventaja es la integración con herramientas y aplicaciones de Google.
 
-  ![Ejemplo de descripción de imágenes usando Gemini](img/03-internet/image-20240710104300856.png){.rounded-4}
+- Puede utilizarse desde navegador web y dispositivos móviles.
 
-- Se puede instalar como asistente de voz en un dispositivo móvil. Puedes [encontrarlo en la tienda de aplicaciones de android](https://play.google.com/store/apps/details?id=com.google.android.apps.bard).
+- Está disponible en Android como asistente integrado.
 
-![Captura de pantalla de un móvil usando Google Gemini como asistente de voz](img/03-internet/image-20240710103047471.png){.rounded-4}
+- Dispone de versiones gratuitas y de pago con funcionalidades adicionales.
 
-### Perplexity
+> [!tip]
+>
+> Puede entender lo que hay en una imagen.
+>
+> ![Ejemplo de descripción de imágenes usando Gemini](img/03-internet/image-20240710104300856.png){.rounded-4}
+>
+> ![Interfaz de Gemini Web](img/03-internet/image-20260608112636458.png){.rounded-4}
+>
+> Ir a la conversación completa:👉 https://gemini.google.com/share/28c00b8ad307
 
-![Logo de Perplexity AI](img/03-internet/perplexity-logo.png){.rounded-4}
 
-Perplexity es un asistente de inteligencia artificial centrado en la búsqueda de información con fuentes verificables. Combina modelos de lenguaje avanzados con acceso en tiempo real a internet, ofreciendo respuestas claras, concisas y siempre acompañadas de referencias. Está diseñado especialmente para quienes necesitan respuestas confiables y actualizadas rápidamente.
 
-> 🤖 Página web https://www.perplexity.ai/
+> [!important]
+>
+> Se puede instalar como asistente de voz en un dispositivo móvil, con activación por voz con “Ok Google”.
+>
+> Puedes [encontrarlo en la tienda de aplicaciones de android](https://play.google.com/store/apps/details?id=com.google.android.apps.bard).
+>
+> ![Captura de pantalla de un móvil usando Google Gemini como asistente de voz](img/03-internet/image-20240710103047471.png){.rounded-4}
 
-- Utiliza modelos como GPT-4 y Claude de forma integrada.
-- Realiza búsquedas en internet en tiempo real y muestra las fuentes utilizadas directamente en sus respuestas.
-- Ideal para estudiantes, periodistas, investigadores o cualquier usuario que necesite verificar la información de forma inmediata.
-- Tiene un diseño enfocado en la simplicidad: se usa como un motor de búsqueda, pero con capacidades de lenguaje natural.
-- Ofrece un modo “Pro” con respuestas más detalladas y acceso a modelos premium.
+## IA especializada
+
+Además de los asistentes de propósito general como ChatGPT, Copilot o Gemini, existen otras herramientas de inteligencia artificial orientadas a usos específicos.
+
+| Herramienta        | Página web                                                   | Descripción                                                  |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Claude**         | [https://claude.ai](https://claude.ai/)                      | Asistente de inteligencia artificial desarrollado por Anthropic. Destaca por su capacidad para analizar documentos extensos y mantener conversaciones detalladas. |
+| **Midjourney**     | [https://www.midjourney.com](https://www.midjourney.com/)    | Herramienta especializada en la generación de imágenes a partir de descripciones escritas. |
+| **Canva AI**       | [https://www.canva.com](https://www.canva.com/)              | Conjunto de herramientas de inteligencia artificial integradas en Canva para diseño gráfico, presentaciones y creación de contenido visual. |
+| **GitHub Copilot** | https://github.com/features/copilot                          | Asistente orientado al desarrollo de software que ayuda a programar y generar código. |
+| **NotebookLM**     | [https://notebooklm.google.com](https://notebooklm.google.com/) | Herramienta de Google diseñada para analizar documentos y generar resúmenes, explicaciones y respuestas basadas en ellos. |
+| **Suno**           | [https://suno.com](https://suno.com/)                        | Plataforma especializada en la generación de música y canciones mediante inteligencia artificial. |
+| **Runway**         | [https://runwayml.com](https://runwayml.com/)                | Herramienta enfocada en la creación y edición de vídeos mediante inteligencia artificial. |
+| **ElevenLabs**     | [https://elevenlabs.io](https://elevenlabs.io/)              | Plataforma especializada en síntesis de voz y generación de narraciones realistas. |
+
+> [!tip]
+>
+> El mundo de la inteligencia artificial evoluciona muy rápidamente. Cada año aparecen nuevas herramientas y servicios, por lo que esta lista es solo una pequeña muestra de algunas de las opciones más conocidas en la actualidad.
