@@ -41,13 +41,16 @@
             {
                 "icon": "pi pi-envelope",
                 "desc": "Correo contacto: tutor.airzone@outlook.es",
+                "botonText": "Enviar correo",
                 "href": "mailto:tutor.airzone@outlook.es"
             },
             {
-                "icon": "pi pi-microsoft",
-                "desc": "Temar.io de Microsoft 365",
-                "descLarga": "",
-                "href": "https://curso-office365.netlify.app"
+                "icon": "pi pi-download",
+                "desc": "Descarga de certificado oficial 🏅",
+                "botonText": "Descargar",
+                "botonIcon": "pi pi-download",
+                "descLarga": "Descarga de prueba de un archivo PDF para las prácticas ",
+                "href": "https://temario-airzone.netlify.app/assets/descargas/certificado.pdf"
             },
             {
                 "icon": "pi pi-graduation-cap",

@@ -35,6 +35,8 @@ export interface EnlacesExternos {
 
 export interface Enlace {
     icon:        string;
+    botonText?:  string;
+    botonIcon?:  string;
     desc:        string;
     descLarga?:  string;
     href:        string;
