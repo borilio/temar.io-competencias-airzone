@@ -151,6 +151,19 @@
           "severity": "primary",
           "outlined": true,
           "habilitado": true
+        },
+        {
+          "id": "cuenta-teams",
+          "orden": 3,
+          "titulo": "Instrucciones para iniciar sesión en Teams",
+          "descripcion": "Instrucciones para iniciar sesión en Teams, creando una nueva cuenta de Microsoft o bien vinculando una cuenta existente",
+          "archivoMd": "cuenta-teams.md",
+          "img": "",
+          "emoji": "",
+          "icon": "pi pi-angle-right",
+          "severity": "primary",
+          "outlined": true,
+          "habilitado": true
         }
       ]
     }
